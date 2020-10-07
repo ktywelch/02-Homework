@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Load the bootstrap css-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+      <span class="navbar-brand mb-1 h1">Kathleen Welch</span>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+        <ul class="nav">
+          <li class="nav-item">
+            <a name="AboutMe" class="nav-link" href="#AboutMe">Home/About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./assets/html/portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./assets/html/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Nav -->
+    <!--Starting the About Me Container containing image and card-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <p></p>
+          <div class="row">
+              <div class="col-md-3 col-xs-2">
+                <img
+                src="./assets/Images/preferred-pic.JPG"
+                alt="Personal Picture"
+                class="img-fluid img-thumbnail rounded-circle border border-danger"  />
+               </div>
+          
+              <div class="col-md-9 col-xs-8">
+                <div class="card border-info mb-3">
+                    <div class="card-header"><h3>About me</h3></div>
+                    <div class="card-body text-info">
+                     <h5 class="card-title">Professional</h5>
+                      <div class="mt-2 ml-3" >
+                       Currently working as a solution delivery lead in PHC IX 
+                       and informatics division at a large Bio Tech company. 
+                       The team focuses on providing datasets to clinical researchers.
+                      </div>
+                      <div class="mt-2 ml-3" > 
+                      My goal in completing this bootcamp is to gain skills that will enable me to contribute more meaningfully to projects that are core to the organization.
+                      </div>
+                      <div class="mt-2 ml-3" >     
+                       I have worked quiet extensively in support IT infrastructure systems, networks  and products. 
+                       I started my career in IT working as a very young computer lab manager  for the City Colleges of Chicago. One of my early achievements was to create computer lab that was focused on end users and students and not on programmers. The faculty and staff taught business skills such as how to use and automate word processors, spreadsheets and databases to meet business goals. At the time it was one of the first in the US.
+                      </div> 
+                      <div class="mt-2 ml-3" >  
+                        As you can see from my <a href="www.linkedin.com/in/kathleen-welch-9701261">LinkedIn Profile</a> I have worked in a variety on IT roles and the movement has varied - Network Engineer, Manager of Core Engineering Team, Technical Support Engineer, Technical Resolution Manager, Technical Support Manager, System Administrator and now Delivery lead.
+                     </div>
+                    </div>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--Adding Container & Thumbnails for Hobbies-->  
+  <div class="container-fluid" style="padding: 60px;">
+     <div class="row justify-content-md-center mr-auto">
+       <div class="col-md-12 border-danger border-top">
+         <p>
+           <h2 id="example-enable-tooltips-everywhere" class='text-center' style="color: blue;">Hobbies</h2>
+         </p>
+       </div>
+     </div>    
+          <div class="row justify-content-md-center mr-auto">
+            <div class="col-md-3 col-xs-2" style="padding-top: 60px;">
+              <img
+                src="./assets/Images/ireland.jpg"
+                alt="Travel Picture"
+                class="img-fluid  img-thumbnail rounded mx-auto d-block"
+                data-toggle="tooltip"
+              />
+               </div> 
+               <div class="col-md-3 col-xs-2">
+                <img
+                  src="./assets/Images/CityHikes.jpeg"
+                  alt="Picture Representing City Hiking"
+                  class="img-fluid  img-thumbnail rounded" 
+                />
+                 </div> 
+                 <div class="col-md-3 col-xs-2" style="padding-top: 60px;">
+                  <img
+                    src="./assets/Images/vines2.jpeg"
+                    alt="Picture Representing Vineyard/Wine Making"
+                    class="img-fluid  img-thumbnail rounded"
+                  />
+                   </div> 
+          </div>   
+    </div>
+<!-- Include the dependency scripts for bootstrap css -->
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

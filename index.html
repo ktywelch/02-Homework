@@ -17,7 +17,8 @@
   <body>
     <!-- Start Nav -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-      <span class="navbar-brand mb-1 h1">Kathleen Welch</span>
+      <span class="navbar-brand text-primary mb-1"><h2>Kathleen Welch</h2></span>
+    <!-- Making the button toggler to be uses as window is collapsed -->
       <button
         class="navbar-toggler"
         type="button"
@@ -25,8 +26,7 @@
         data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
@@ -49,11 +49,11 @@
       <div class="row">
         <div class="col-md-12 col-sx-6">
           <div class="row">
-                <div class="card border mb-3">
-                    <div class="card-header text-center"><h3>About me</h3>
+                <div class="card  mb-3">
+                    <div class="card-header text-center text-primary"><h3>About me</h3>
                 </div>
                       
-                <div class="card-body lead">
+                <div class="card-body m-4 border border-danger lead">
                    <div class="float-md-left">
                      <img src="./assets/Images/preferred-pic.JPG" alt="Personal Picture" 
                         class="p-3 img-responsive float-md-left float-sm-left rounded-circle w-25" 
@@ -85,11 +85,13 @@
       </div>
     </div>
 <!--Adding Container & Thumbnails and hover effects to Hobbies-->  
-  <div class="container-fluid ">
+<!--added subrows - Outer Row is the Heading single col -->
+   <div class="container-fluid ">
      <div class="row justify-content-md-center mr-auto">
-           <h2  class='text-center' style="color: blue;">Hobbies</h2>
-     </div>    
-       <div>    
+      <div class="col-md-12 col-xs-12">
+       <h2  class='text-center text-primary'>Hobbies</h2>
+      </div>
+      <!--subrows - is the Pictures -->
           <div class="row align-items-center justify-content-md-center">
             <div class="col-md-3 col-xs-2 hobbies">
               <img
@@ -111,9 +113,8 @@
                <div class="overlay">
                   <div class="text">Hiking in SF & the Bay Area is amazing!</div>
                </div>
-             </div>
-                  
-             <div class="col-md-3 col-xs-2 hobbies">
+             </div>   
+             <div class="col-md-4 col-xs-2 hobbies">
                 <img
                  src="./assets/Images/vines2.jpeg"
                  alt="Picture Representing Vineyard/Wine Making"
@@ -122,13 +123,14 @@
                 <div class="overlay">
                   <div class="text">Sonoma Vineyards, Wine Making & Wine Tasting</div>
                 </div>
+ 
               </div>   
-            </div> 
+          </div> 
        </div>     
   </div>
-    <!-- Trying out the stickey footer -->
+    <!-- Sticky footer -->
     <footer class="container-fluid">
-      <nav class="navbar fixed-bottom" style="background-color: #e3f2fd;"></nav>
+      <nav class="navbar fixed-bottom" style="background-color: #e3f2fd;">
        <span><p>Homework 02 - Kathleen Welch</p></span>
       </nav>
     </footer>

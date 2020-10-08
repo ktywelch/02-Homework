@@ -34,3 +34,8 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+.card .image{
+  width: 20%;
+  height: 20%;
+}

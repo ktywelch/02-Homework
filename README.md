@@ -42,6 +42,8 @@ Peer review by study group: Bonnie, Lucah, Jacky, Edgar, Franco
 
 Code Validated by https://validator.w3.org/
 
+Validation Script StackOverflow user Juan Marco
+
 
 
 

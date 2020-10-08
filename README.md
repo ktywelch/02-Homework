@@ -40,6 +40,8 @@ sample documents. Adjustments were made to make the code work.
 
 Peer review by study group: Bonnie, Lucah, Jacky, Edgar, Franco
 
+Code Validated by https://validator.w3.org/
+
 
 
 

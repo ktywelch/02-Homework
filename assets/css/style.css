@@ -1,3 +1,12 @@
+
+.bg {
+  background-image: url("../Images/GreenWav.jpg");
+}
+
+.form_bg{
+  background-color: lightskyblue;
+}
+
 /* Change background on mouse-over */
 .navbar a:hover {
   background: #ddd;
@@ -12,7 +21,7 @@
   right: 0;
   opacity: 0;
   transition: .5s ease;
-  background-color: lightcoral;
+  background-color:g;
 }
 /* Special Container for images that I want hover for hobbies */
 .hobbies {

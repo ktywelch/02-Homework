@@ -1,7 +1,11 @@
 
-.bg {
+/*  Background for container used to form */
+.bg{
   background-image: url("../Images/GreenWav.jpg");
-}
+  background-size: 100% 100%;;
+  background-attachment: fixed;
+ }
+
 
 .form_bg{
   background-color: lightskyblue;
@@ -42,9 +46,4 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
-
-.card .image{
-  width: 20%;
-  height: 20%;
 }

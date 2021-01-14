@@ -46,86 +46,87 @@
     <!-- End Nav -->
    
  <!--Starting the Portfolio Container containing card with text (copied initially from example)-->
-<div class="container-flex">
-   <a id="Portfolio"></a>
-
-   <div class="card-group">
-
-     <div class="card align-items-center col-3">
-         <img src="../Images/FirstHomeWork.jpg" class="card-img-top w-75 m-4" alt="First Homework Image">
-            <div class="card-body">
-            <h4 class="card-title">Refactor Assignment</h4>
-            <p class="card-text">The first project covered the introduction of css utilizing 
+<div class="container">
+   <div id="Portfolio"></div>
+    <div class="card-deck">
+      <div class="row m-5">
+        <div class="card align-items-center col-md-4">
+          <img src="../Images/FirstHomeWork.jpg" class="card-img-top w-75 m-4" alt="First Homework Image">
+             <div class="card-body">
+             <h4 class="card-title">Refactor Assignment</h4>
+             <p class="card-text">The first project covered the introduction of css utilizing 
                the functionality to improve HTML.</p>
-             <a href="https://ktywelch.github.io/01-02-Homework/"  target="_blank" class="btn btn-primary" role="button">Link Button</a>
-            </div>
-      </div>
-   
-   
-   
-       <div class="card align-items-center col-md-6">
+              <a href="https://ktywelch.github.io/01-02-Homework/"  target="_blank" class="btn btn-outline-secondary" role="button">Published App</a>
+             </div>
+          </div>
+          
+       <div class="card align-items-center col-md-4">
            <img src="../Images/weather.gif" class="card-img-top w-75 p-4" alt="place holder vineyard">
            <div class="card-body">
             <h4 class="card-title">Personal Weather</h4>
             <p class="card-text"> Project that utilizes the OpenWeather API to retrieve weather data for cities. In addition once we have the city information we use 
               localStorage to store the cities so we can click on a location to get the updaed weather for that location..</p>
-             <a href="https://ktywelch.github.io/PersonalWeather/"  target="_blank" class="btn btn-primary" role="button">Link Button</a>
+             <a href="https://ktywelch.github.io/PersonalWeather/"  target="_blank" class="btn btn-outline-secondary" role="button">Published App</a>
             </div>
       </div>
    
-        <div class="card align-items-center">
+        <div class="card align-items-center col-md-4">
           <img src="../Images/show-pw.jpg" class="card-img-top w-75 p-4" alt="place holder vineyard">
           <div class="card-body">
            <h4 class="card-title">Password Generator</h4>
            <p class="card-text"> Project that generate a random password based on users input criteria and return the value to user. 
              The password will show on the screen for 6 seconds giving the user time to write it down or copy.</p>
-            <a href="https://ktywelch.github.io/password-gen/"  target="_blank" class="btn btn-primary" role="button">Link Button</a>
+            <a href="https://ktywelch.github.io/password-gen/"  target="_blank" class="btn btn-outline-secondary" role="button">Published App</a>
            </div>
         </div>
-   
-
-         <div class="card align-items-center">
+      
+  
+      <div class="w-100 p-4"></div>          
+         <div class="card align-items-center col-md-4">
             <img src="../Images/MusicForFood.gif" class="card-img-top m-4 w-75" alt="place holder image">
                   <div class="card-body">
                   <h4 class="card-title">Music For Food</h4>
-                  <p class="card-text">Project was to create a website that searches for recipes and music depending on what cuisine of 
+                  <p class="card-text">Project was to create a website that utilizes fetch to search for recipes and music depending on what cuisine of 
                     your choice so that the user is provide a playlist from that same ethnic culture.</p>
-                   <a href="https://ktywelch.github.io/MusicForFood/"  target="_blank" class="btn btn-primary" aria-disabled="true" >Link to App</a>
+                   <a href="https://ktywelch.github.io/MusicForFood/"  target="_blank" class="btn btn-outline-secondary" aria-disabled="true" >Published App</a>
                   </div>
            </div>
-     <div class="card align-items-center">
+          
+     <div class="card align-items-center col-md-4">
         <img src="../Images/notetaker.gif" class="card-img-top m-4 w-75" alt="place holder image">
            <div class="card-body">
            <h4 class="card-title">NoteTaker deployed on Heroku</h4>
            <p class="card-text">The NoteTaker application allows a user to read, write, change and save notes. 
              This application uses express.js back end, saves and retrieves the note data from a JSON file.</p>
-            <a href="NoteTaker Application on Heroku"  target="_blank" class="btn btn-primary" aria-disabled="true" >Place Holder</a>
+            <a href="NoteTaker Application on Heroku"  target="_blank" class="btn btn-outline-secondary" aria-disabled="true" >App on Heroku</a>
            </div>
     </div>
  
-    <div class="card align-items-center">
+    <div class="card align-items-center col-md-4">
      <img src="../Images/EmployeeTracker.gif" class="card-img-top m-4 w-75" alt="place holder image">
            <div class="card-body">
            <h4 class="card-title">Employee Tracker</h4>
            <p class="card-text">PThe EmployeeTracker application allows a user to create, read, update and delete Employees, Department and Roles from a company database. T
              his will allow users to interact with the data in a more meaningful way. Requires download from git - not deployed to web service.</p>
-            <a href="https://github.com/ktywelch/EmployeTracker"  target="_blank" class="btn btn-primary" aria-disabled="true" >Git Hub Source</a>
+            <a href="https://github.com/ktywelch/EmployeTracker"  target="_blank" class="btn btn-outline-secondary" aria-disabled="true" >Git Hub Source</a>
            </div>
     </div>
- 
-  <div class="card align-items-center">
-     <img src="../Images/devour_app.gif" class="card-img-top m-4 w-75" alt="place holder image">
+      
+  
+  <div class="w-100 p-4" ></div>    
+
+     <div class="card align-items-center col-md-4">
+        <img src="../Images/devour_app.gif" class="card-img-top m-4 w-75" alt="place holder image">
            <div class="card-body">
            <h4 class="card-title">Eat'n Burgers on Heroku</h4>
            <p class="card-text">he Eat'n Burger is an application that utilizes database to allow users to add burgers to a log to track burgers they would like to 
              try to the list and when the burger is devoured the burgers they move to eaten..</p>
-            <a href="https://burger-devour-kw.herokuapp.com/"  target="_blank" class="btn btn-primary" aria-disabled="true" >Link to App on Heroku</a>
+            <a href="https://burger-devour-kw.herokuapp.com/"  target="_blank" class="btn btn-outline-secondary" aria-disabled="true" >App on Heroku</a>
            </div>
-    </div>
- </div>
-</div>
-
+         </div>
   
+
+</div>   
 <footer class="footer fixed-bottom mt-3">
   <nav class="navbar mx-auto justify-content-center" style="background-color: #e3f2fd;">
     <a href="mailto:ktywelch@yahoo.com">Contact Me</a> 

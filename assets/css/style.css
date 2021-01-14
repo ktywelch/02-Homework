@@ -10,3 +10,10 @@
 .form_bg{
   background-color: lightskyblue;
 }
+.card-deck{
+  margin-top: 10px;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: .5rem;
+}
